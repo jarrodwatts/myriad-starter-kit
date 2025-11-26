@@ -172,7 +172,7 @@ export function MarketCard({ market }: MarketCardProps) {
                 src={market.imageUrl}
                 alt=""
                 fill
-                className="object-cover blur-2xl scale-125 opacity-60 saturate-200"
+                className="object-cover blur-2xl scale-110 opacity-30 dark:scale-125 dark:opacity-60 saturate-150 dark:saturate-200 brightness-125 dark:brightness-100 contrast-75 dark:contrast-100"
                 aria-hidden="true"
               />
             </div>
@@ -197,7 +197,7 @@ export function MarketCard({ market }: MarketCardProps) {
           </div>
         </div>
 
-        <CardContent className="flex flex-1 flex-col px-4 pt-3 pb-2 relative z-10 -mt-px">
+        <CardContent className="flex flex-1 flex-col px-4 pt-3 pb-2 relative z-10 -mt-px bg-background/40 backdrop-blur-[2px]">
           {/* Title */}
           <div className="h-10 mb-2 flex items-center">
             <h3 className="line-clamp-2 text-base font-bold leading-tight text-foreground group-hover:text-primary transition-colors">

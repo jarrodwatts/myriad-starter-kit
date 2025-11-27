@@ -8,12 +8,6 @@
  * - QueryClientProvider: TanStack Query for data fetching and caching
  * - AbstractWalletProvider: Abstract's Global Wallet for seamless onboarding
  *
- * The Abstract Global Wallet (AGW) enables:
- * - Email/social login (no seed phrase needed)
- * - Smart account with gas sponsorship
- * - Cross-app wallet persistence
- *
- * @see https://docs.abs.xyz/how-abstract-works/native-account-abstraction/overview
  */
 
 import { AbstractWalletProvider } from "@abstract-foundation/agw-react";
